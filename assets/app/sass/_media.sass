@@ -1,0 +1,165 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+  #my-content
+  	background: url(../img/bg-content-2.jpg)
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+  #my-header
+    padding: 15px 0
+    padding-bottom: 10px
+    position: fixed
+    width: 100%
+    z-index: 2
+    .img-responsive
+      max-width: 72%
+    .align-right
+      text-align: left
+    .phone
+      display: inline-block
+      //margin-right: 40px
+      font-size: 22px
+    .callback
+      float: right
+    .link-w
+      float: none
+      display: block
+      margin-right: 0
+  .hamburger
+    padding: 0
+    display: inline-block
+    //margin: 10px
+    margin-top: 6px
+    .hamburger-inner
+      background-color: $accent
+      &::before
+        background-color: $accent
+      &::after
+          background-color: $accent
+  .mm-menu
+    &.mm-theme-dark
+      background: $dark
+    .mm-listview
+      margin-top: 0 !important
+      .mm-next
+        color: $accent
+        &:after
+          border-color: $accent !important
+
+      li
+        border-color: $accent
+        a
+          text-transform: uppercase
+          color: $accent
+          text-decoration: none
+          position:relative
+          font-size: 18px
+  .mm-navbar
+    .mm-title
+      img
+        width: 50px
+        height: auto
+  .menu-left
+    margin-bottom: 20px
+    ul
+      padding-left: 20px
+  #my-footer
+    ul
+      margin-right: 3%
+  .flex-menu
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+
+  form
+    padding: 15px
+    .title-form
+      font-size: 20px
+      margin-bottom: 15px
+    input
+      margin-bottom: 15px
+    textarea
+      margin-bottom: 15px
+
+
+  #my-content
+  	padding-top: 85px
+
+  #my-footer
+    padding: 20px 0
+    .container
+      display: block
+      text-align: center
+    .logo
+      margin-bottom: 10px
+    ul
+      margin: 0
+      padding: 0
+      display: block
+      li
+        display: inline-block
+        margin-right: 15px
+        &:first-child
+          font-weight: bold
+  .send
+    font-size: 18px
+  .item-product
+    margin: 0
+    margin-bottom: 15px
+  .item-service
+    margin: 0
+    h2
+      font-size: 18px
+  .item-section
+  	margin-bottom: 20px
+  .form-contakt
+    padding-right: 0
+    margin-bottom: 20px
+    margin-right: auto
+    margin-left: auto
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+  /**/
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+  #my-header
+    .phone
+      font-size: 18px
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1700px)
+	#my-content
+  	background: url(../img/bg-content-L.png) center left no-repeat, url(../img/bg-content-R.png) center right no-repeat, url(../img/bg-content-2.jpg)

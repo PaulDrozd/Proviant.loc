@@ -1,0 +1,356 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+//@import "_mixins/gradients"
+
+*::-webkit-input-placeholder
+	color: #a3a3a3
+	opacity: 1
+
+*:-moz-placeholder
+	color: #a3a3a3
+	opacity: 1
+
+*::-moz-placeholder
+	color: #a3a3a3
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #a3a3a3
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+
+li
+	list-style: none
+a
+	color: $dark
+	&:hover
+		color: $dark
+body
+	//height: 100%
+	font-size: 18px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+	opacity: 1
+h2
+	font-size: 24px
+	text-transform: uppercase
+	font-weight: normal
+h3
+	font-size: 24px
+	font-weight: normal
+
+//////////////////// каркас
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+.align-right
+	text-align: right
+.align-center
+	text-align: center
+.link-w
+	color: #FFF
+	text-decoration: underline
+	cursor: pointer
+	&:hover
+		text-decoration: none
+		color: #FFF
+.hidden
+	display: none
+.red-text
+	text-transform: uppercase
+	color:#ff0000
+/////////////head css
+
+#my-page
+	display: flex
+	flex-direction: column
+	height: 100%
+
+#my-header
+	flex: 0 0 auto
+	background-repeat: no-repeat
+	background-size: cover
+	padding-top: 25px
+	padding-bottom: 40px
+	position: fixed
+	width: 100%
+	z-index: 3
+	.logo
+		display: inline-block
+		cursor: pointer
+	.soc-seti
+		color: #fff
+		display: inline-block
+		p
+			display: inline-block
+			margin-right: 5px
+			margin-top: 5px
+		a
+			display: inline-block
+			cursor: pointer
+			margin-right: 10px
+	.link-w
+		float: right
+		margin-right: 20px
+	.nav-top
+		ul
+			padding-left: 0
+			margin: 5px 0px
+			li
+				display: inline-block
+				margin-right: 30px
+				&:last-child
+					margin-right: 0
+				&.active
+					a
+						background-image: linear-gradient(to right,#a6722d 0,#ffffcd 50%,#a6722d 100%)
+						background-position: bottom
+						background-size: 100% 2px
+						background-repeat: no-repeat
+				a
+					text-transform: uppercase
+					color: $accent
+					text-decoration: none
+					position:relative
+					font-size: 22px
+					&:hover
+						background-image: linear-gradient(to right,#a6722d 0,#ffffcd 50%,#a6722d 100%)
+						background-position: bottom
+						background-size: 100% 2px
+						background-repeat: no-repeat
+	.phone
+		font-size: 30px
+		font-weight: bold
+		color: #fff
+		text-decoration: none
+		display: block
+		&:hover
+			color: #FFF
+	.callback
+		float: none
+		margin-right: 0
+
+#my-content
+
+	flex: 1 0 auto
+	padding-top: 20px
+	padding-bottom: 20px
+	background: url(../img/bg-content-L.png) center left 30px no-repeat, url(../img/bg-content-R.png) center right -190px no-repeat, url(../img/bg-content-2.jpg)
+	//opacity: 0.5
+	.menu-left
+		background:rgba(0,0,0,0.5) url(../img/bg-menu-l.png)  center no-repeat
+		background-size: cover
+		border-radius: 9px
+		box-shadow: 4px 3px 12px rgba(0,0,0,0.5)
+		ul
+			padding-left: 55px
+			padding-right: 20px
+			padding-top: 15px
+			padding-bottom: 15px
+			margin: 0
+			li
+				a
+					text-transform: uppercase
+					color: $accent
+					text-decoration: none
+					position:relative
+					font-size: 20px
+					&:hover
+						color:#fff
+						cursor: pointer
+				&.active
+					a
+						color:#fff
+	.main-slider
+		text-align: center
+		box-shadow: 4px 3px 12px rgba(0,0,0,0.5)
+	.owl-dots
+		margin: 0 auto
+		display: block
+		position: absolute
+		bottom: 0
+		width: 100%
+		.owl-dot
+			display: inline-block
+			span
+				display: block
+				width: 20px
+				height: 20px
+				margin: 10px
+				background-color: $dark
+				border: 2px solid $accent
+				border-radius: 100%
+				cursor: pointer
+				&:hover
+					background-color: $accent
+					border: 2px solid $dark
+			&.active
+				span
+					background-color: $accent
+					border: 2px solid $dark
+#my-footer
+	flex: 0 0 auto
+	background-repeat: no-repeat
+	background-size: cover
+	padding-top: 50px
+	padding-bottom: 25px
+	.container
+		display: flex
+		align-items: flex-start
+		justify-content: space-between
+	a.logo
+			display: inline-block
+			img
+				width: 104px
+				height: 63px
+	ul
+		display: inline-block
+		margin-top: 0
+		margin-right: 20%
+		li
+			p
+				color: $text-light
+				margin: 0
+
+/////////////////////////////////form
+
+form
+	margin: auto
+	max-width: 530px
+	background-color: #fff
+	border-radius: 10px
+	border: 1px solid $gc-1
+	padding: 25px 40px 48px
+	position: relative
+	input
+		border: 1px solid #ccc
+		padding: 12px
+		margin-bottom: 40px
+		width: 100%
+		&:last-child
+			margin-bottom: 45px
+	textarea
+		border: 1px solid #ccc
+		padding: 12px
+		margin-bottom: 40px
+		width: 100%
+		max-height: 220px
+		resize: none
+
+	.title-form
+		font-size: 36px
+		text-transform: uppercase
+		text-align: center
+		margin-bottom: 40px
+	.mfp-close
+		width: 55px
+		height: 55px
+		margin: 0 auto
+		margin-bottom: 10px
+		position: relative
+		display: block
+		cursor: pointer
+		background: url(../img/form-close.png) no-repeat center
+.send
+	margin: 0 auto
+	display: block
+	padding: 3px 20px
+	font-size: 22px
+	text-transform: uppercase
+	border: none
+	background-image: linear-gradient(to right, $gc-1 0%,  $gc-2 50%, $gc-3 100%)
+	&:hover
+		text-decoration: underline
+
+///////////////////каркас конец
+
+.item-block
+	a
+		text-decoration: none
+		cursor: pointer
+		text-align: center
+		display: inline-block
+		p
+			color: $dark
+			text-decoration: underline
+///
+.breadcrumbs
+	padding-left: 15px
+	li
+		display: inline-block
+		a
+			margin-right: 10px
+			background-color: $accent
+			cursor: pointer
+			padding: 2px 5px
+		&.active
+			a
+				background-color: transparent
+.item-product
+	background-color: #fff
+	padding: 15px
+	margin: 15px
+	text-align: center
+	box-shadow: 4px 3px 12px rgba(0,0,0,0.5)
+	img
+		margin-bottom: 10px
+	p
+		margin-top: 10px
+		margin-bottom: 10px
+		line-height: 1.2
+	a
+		font-weight: bold
+		text-decoration: underline
+	 &.send
+		 font-weight: normal
+		 text-decoration: none
+		 &:hover
+	 		text-decoration: underline
+.item-service
+	text-align: center
+	margin: 0px 20px
+	img
+		margin-right: 0
+		display: inline-block
+		border-radius: 14px
+		box-shadow: 3px 3px 3px rgba(0,0,0,0.5)
+	a:hover
+		img
+			box-shadow: 4px 3px 12px rgba(0,0,0,0.5)
+.item-section
+	margin-bottom: 50px
+.form-contakt
+	background: none
+	border-radius: 0px
+	border: none
+	margin: 0
+	padding: 0
+	padding-right: 40px
+.map
+	text-align: center
+	img
+		display: inline-block
+.basket
+	background-color: #fff
+	width: 100%
+	tr
+		border-bottom: 1px solid #ccc
+		//margin: 10px
+		td
+			padding: 10px 15px
+
+@import "media" // Всегда в конце

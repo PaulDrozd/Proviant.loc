@@ -1,0 +1,25 @@
+[2017-04-13 11:30:13] (ERROR @ /Users/PaulDrozdFair/Sites/proviant.loc/core/xpdo/transport/xpdoobjectvehicle.class.php : 227) Could not copy /Users/PaulDrozdFair/Sites/proviant.loc/core/packages/core/modContext/ab9c7d5d8fb0cd14c9b615ff69bbcf3a/0/ to /Users/PaulDrozdFair/Sites/proviant.loc/index.php
+[2017-04-13 11:30:13] (ERROR @ /Users/PaulDrozdFair/Sites/proviant.loc/core/xpdo/transport/xpdoobjectvehicle.class.php : 227) Could not copy /Users/PaulDrozdFair/Sites/proviant.loc/core/packages/core/modContext/ab9c7d5d8fb0cd14c9b615ff69bbcf3a/1/ to /Users/PaulDrozdFair/Sites/proviant.loc/ht.access
+[2017-04-13 11:30:13] (ERROR @ /Users/PaulDrozdFair/Sites/proviant.loc/core/xpdo/transport/xpdoobjectvehicle.class.php : 227) xPDOVehicle resolver failed: type php (/Users/PaulDrozdFair/Sites/proviant.loc/core/packages/core/modContext/ab9c7d5d8fb0cd14c9b615ff69bbcf3a.resolve.core.resolver)
+[2017-04-13 11:30:13] (ERROR @ /Users/PaulDrozdFair/Sites/proviant.loc/core/xpdo/transport/xpdoobjectvehicle.class.php : 88) Could not resolve vehicle for object of class modContext; criteria: Array
+(
+    [key] => web
+)
+
+[2017-04-13 11:30:13] (ERROR @ /Users/PaulDrozdFair/Sites/proviant.loc/core/xpdo/transport/xpdoobjectvehicle.class.php : 227) Could not copy /Users/PaulDrozdFair/Sites/proviant.loc/core/packages/core/modContext/61274fabfa9b8299843a2df060250654/0/ to /Users/PaulDrozdFair/Sites/proviant.loc/manager/assets
+[2017-04-13 11:30:13] (ERROR @ /Users/PaulDrozdFair/Sites/proviant.loc/core/xpdo/transport/xpdoobjectvehicle.class.php : 227) Could not copy /Users/PaulDrozdFair/Sites/proviant.loc/core/packages/core/modContext/61274fabfa9b8299843a2df060250654/1/ to /Users/PaulDrozdFair/Sites/proviant.loc/manager/controllers
+[2017-04-13 11:30:13] (ERROR @ /Users/PaulDrozdFair/Sites/proviant.loc/core/xpdo/transport/xpdoobjectvehicle.class.php : 227) Could not copy /Users/PaulDrozdFair/Sites/proviant.loc/core/packages/core/modContext/61274fabfa9b8299843a2df060250654/2/ to /Users/PaulDrozdFair/Sites/proviant.loc/manager/templates
+[2017-04-13 11:30:13] (ERROR @ /Users/PaulDrozdFair/Sites/proviant.loc/core/xpdo/transport/xpdoobjectvehicle.class.php : 227) Could not copy /Users/PaulDrozdFair/Sites/proviant.loc/core/packages/core/modContext/61274fabfa9b8299843a2df060250654/3/ to /Users/PaulDrozdFair/Sites/proviant.loc/manager/min
+[2017-04-13 11:30:13] (ERROR @ /Users/PaulDrozdFair/Sites/proviant.loc/core/xpdo/transport/xpdoobjectvehicle.class.php : 227) Could not copy /Users/PaulDrozdFair/Sites/proviant.loc/core/packages/core/modContext/61274fabfa9b8299843a2df060250654/4/ to /Users/PaulDrozdFair/Sites/proviant.loc/manager/ht.access
+[2017-04-13 11:30:13] (ERROR @ /Users/PaulDrozdFair/Sites/proviant.loc/core/xpdo/transport/xpdoobjectvehicle.class.php : 227) Could not copy /Users/PaulDrozdFair/Sites/proviant.loc/core/packages/core/modContext/61274fabfa9b8299843a2df060250654/5/ to /Users/PaulDrozdFair/Sites/proviant.loc/manager/index.php
+[2017-04-13 11:30:13] (ERROR @ /Users/PaulDrozdFair/Sites/proviant.loc/core/xpdo/transport/xpdoobjectvehicle.class.php : 227) xPDOVehicle resolver failed: type php (/Users/PaulDrozdFair/Sites/proviant.loc/core/packages/core/modContext/61274fabfa9b8299843a2df060250654.resolve.core.resolver)
+[2017-04-13 11:30:13] (ERROR @ /Users/PaulDrozdFair/Sites/proviant.loc/core/xpdo/transport/xpdoobjectvehicle.class.php : 88) Could not resolve vehicle for object of class modContext; criteria: Array
+(
+    [key] => mgr
+)
+
+[2017-04-13 11:30:13] (ERROR @ /Users/PaulDrozdFair/Sites/proviant.loc/core/xpdo/transport/xpdofilevehicle.class.php : 40) Could not install files from /Users/PaulDrozdFair/Sites/proviant.loc/core/packages/core/xPDOFileVehicle/40217aff2b50685cc7d90958df78ca16/ to /Users/PaulDrozdFair/Sites/proviant.loc/connectors/
+[2017-04-13 11:30:13] (ERROR @ /Users/PaulDrozdFair/Sites/proviant.loc/core/xpdo/transport/xpdofilevehicle.class.php : 40) Could not install files from /Users/PaulDrozdFair/Sites/proviant.loc/core/packages/core/xPDOFileVehicle/a5a91bd010cc244459de477ea5769987/ to /Users/PaulDrozdFair/Sites/proviant.loc/connectors/
+[2017-04-13 11:30:13] (ERROR @ /Users/PaulDrozdFair/Sites/proviant.loc/core/xpdo/transport/xpdofilevehicle.class.php : 40) Could not install files from /Users/PaulDrozdFair/Sites/proviant.loc/core/packages/core/xPDOFileVehicle/a5c62955373a48695cc04089bb26c4d6/ to /Users/PaulDrozdFair/Sites/proviant.loc/connectors/
+[2017-04-13 11:30:13] (ERROR @ /Users/PaulDrozdFair/Sites/proviant.loc/core/xpdo/transport/xpdofilevehicle.class.php : 40) Could not install files from /Users/PaulDrozdFair/Sites/proviant.loc/core/packages/core/xPDOFileVehicle/6fffb2d95186a85842d9683431fc6066/ to /Users/PaulDrozdFair/Sites/proviant.loc/connectors/
+[2017-04-13 11:30:13] (ERROR @ /Users/PaulDrozdFair/Sites/proviant.loc/core/xpdo/transport/xpdofilevehicle.class.php : 105) xPDOVehicle resolver failed: type php (/Users/PaulDrozdFair/Sites/proviant.loc/core/packages/core/xPDOFileVehicle/6fffb2d95186a85842d9683431fc6066.resolve.core.resolver)
